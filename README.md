@@ -14,15 +14,15 @@ I'm a passionate and creative developer always learning new technologies! 🚀
 ## 📈 GitHub Stats
 
 <!-- GitHub stats with dynamic badge -->
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true&theme=radical)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ismaelBlaise&show_icons=true&theme=radical)
 
 <!-- Top Languages -->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ismaelBlaise&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 🏆 Trophies
 
 <!-- Profile trophies with GitHub Profile Trophy -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=YourUsername&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=ismaelBlaise&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## 🔧 Technologies I Use
 
@@ -34,19 +34,6 @@ I'm a passionate and creative developer always learning new technologies! 🚀
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 
-## 📚 My Projects
-
-### [Project Name 1](project-link)
-- Short description of the project. 
-- Technologies used: React, Node.js, MongoDB.
-
-### [Project Name 2](project-link)
-- Short description of the project.
-- Technologies used: Java, Spring Boot, PostgreSQL.
-
-### [Project Name 3](project-link)
-- Short description of the project.
-- Technologies used: Python, Flask, MySQL.
 
 ## 🗣️ Contact
 
