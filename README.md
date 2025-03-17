@@ -3,7 +3,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/blaise-ismael-andrianaivo-84347b354)
 [![Facebook](https://img.shields.io/badge/Facebook-%230077B5.svg?&style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/isma.bl2)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/andrianaiv.ismael)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-%25E91E63.svg?&style=flat&logo=whatsapp&logoColor=white)](https://wa.me/+261245552510)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%25E91E63.svg?&style=flat&logo=whatsapp&logoColor=white)](https://wa.me/+261345552510)
 
 I'm a passionate and creative developer always learning new technologies! 🚀
 
