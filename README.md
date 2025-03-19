@@ -7,7 +7,7 @@
 
 I'm a passionate and creative developer always learning new technologies! 🚀
 
-## 👨‍💻 About Me
+## 👨‍💻 About Me 
 - 💻 I'm a Full Stack Developer.
 - 🌱 Currently focusing on learning **React.js**, **Node.js**, and **TypeScript**.
 - ⚡ I love solving complex problems and creating smooth, dynamic user experiences.
