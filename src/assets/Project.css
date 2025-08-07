@@ -1,16 +1,4 @@
 /* Project.css */
-.info {
-  /* background: rgba(255, 255, 255, 0.08); */
-  /* backdrop-filter: blur(8px); */
-  /* -webkit-backdrop-filter: blur(8px); */
-  border-radius: 12px;
-  padding: 2rem;
-  width: 100%;
-  color: #eee;
-  margin-bottom: 2rem;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .section-title {
   font-size: 1.8rem;
@@ -44,7 +32,7 @@
   overflow: hidden;
   /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
   border-left: 0.2px solid rgba(255, 255, 255, 0.1);
-  border-bottom:  0.2px solid rgba(255, 255, 255, 0.1);;
+  border-bottom:  0.2px solid rgba(255, 255, 255, 0.1);
 }
 
 .project-card:hover {
@@ -143,4 +131,46 @@
   .project-image-container {
     height: 180px;
   }
+}
+
+
+/* Ajoutez ces styles à votre fichier Project.css */
+
+/* Modifications pour le fichier Project.css */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 projets par ligne */
+  }
+}
+
+/* Le reste du CSS reste inchangé */
+.view-all-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.view-all-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgba(127, 191, 255, 0.1);
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #cde2ff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.view-all-button:hover {
+  background-color: rgba(127, 191, 255, 0.2);
 }
