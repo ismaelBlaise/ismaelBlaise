@@ -29,7 +29,7 @@ export default function Header() {
         <div className="social-links">
           <a href="https://github.com/ismaelBlaise"><Github size={20} /></a>
           <a href="https://www.linkedin.com/in/blaise-isma%C3%ABl-andrianaivo-491177368/"><Linkedin size={20} /></a>
-          <a href="#"><Mail size={20} /></a>
+          <a href="mailto:ismablaise@gmail.com"><Mail size={20} /></a>
         </div>
 
         {/* <div className="utils-container">
