@@ -1,0 +1,20 @@
+.icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin-top: 100px;
+}
+
+.icon-item {
+  font-size: 3rem;
+  /* color: #444; */
+  transition: transform 0.3s ease;
+}
+
+.icon-item:hover {
+  transform: scale(1.2);
+  color: #007BFF;
+}
