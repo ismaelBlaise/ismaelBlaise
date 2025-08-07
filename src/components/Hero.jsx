@@ -40,7 +40,7 @@ export default function Hero() {
 
 
           <div className="tech-stack">
-            <h3 className="tech-stack-title">Tech Stack</h3>
+            {/* <h3 className="tech-stack-title">Tech Stack</h3> */}
             <div className="tech-list">
               {favoriteTechs.map((tech, index) => (
                 <span key={index} className="tech-item">
