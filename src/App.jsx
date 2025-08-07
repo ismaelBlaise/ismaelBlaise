@@ -8,13 +8,15 @@ function App() {
 
   return (
     <>
-      <Section>
-        <Header></Header>
-      </Section>
+      <div style={{backgroundColor:'#0f111a'}}>
+         <Section>
+          <Header></Header>
+        </Section>
 
-      <Section>
-        <Hero></Hero>
-      </Section>
+        <Section>
+          <Hero></Hero>
+        </Section>
+      </div>
     </>
   )
 }
