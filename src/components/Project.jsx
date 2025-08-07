@@ -34,7 +34,7 @@ const projectData = [
 
 export default function Project() {
   return (
-    <section className="info" id="projects">
+    <section className="infos" id="projects">
       <h2 className="section-title">Projects</h2>
 
       <div className="projects-grid">
