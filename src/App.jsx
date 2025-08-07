@@ -3,6 +3,7 @@ import Competence from './components/Competence'
 import Contact from './components/Contact'
 import Education from './components/Education'
 import Experience from './components/Experience'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Project from './components/Project'
@@ -43,6 +44,8 @@ function App() {
 
             <Contact></Contact>
           </Section>
+
+          <Footer></Footer>
       </div>
     </>
   )

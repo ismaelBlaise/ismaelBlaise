@@ -1,26 +1,31 @@
 .info {
-  /* background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px); */
   border-radius: 5px;
   padding: 0.8rem 2rem;
   height: auto;
-  width:50%;
+  width: 50%;
   color: #eee;
   margin-bottom: 2rem;
   box-sizing: border-box;
   text-align: left;
-  box-shadow: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border-left: 0.2px solid rgba(255, 255, 255, 0.1);
-  border-bottom:  0.2px solid rgba(255, 255, 255, 0.1);
+  border-left: 0.5px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.05);
+  background:transparent;  
+ 
+  transition: all 0.3s ease;
 }
+
+/* .info:hover {
+  border-color: rgba(127, 191, 255, 0.1);
+  background: rgba(255, 255, 255, 0.02);
+} */
 
 /* Responsive: 100% width on small screens */
 @media (max-width: 768px) {
   .info {
     width: 100%;
-    padding: 1.5rem;
+    padding: 1.2rem;
+    
   }
 }
 
@@ -30,6 +35,18 @@
   font-weight: 600;
   color: #ddd;
   text-align: left;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  /* background: rgba(127, 191, 255, 0.5); */
 }
 
 .info-list {
@@ -40,34 +57,28 @@
 
 .info-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.8rem;
   margin-bottom: 1rem;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
   padding-left: 0.8rem;
   border-radius: 4px;
-  transition: background-color 0.2s ease;
 }
-
-/* .info-item:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-} */
 
 .info-icon {
   flex-shrink: 0;
-  color: #7fbfff;
-  margin-top: 0;
+  color: rgba(127, 191, 255, 0.7);
+  margin-top: 0.2rem;
 }
 
 .info-info {
   flex-grow: 1;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .info-date {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.85rem;
-  color: #99bbff;
+  color: rgba(153, 187, 255, 0.8);
   display: block;
   margin-bottom: 0.2rem;
 }
@@ -75,16 +86,15 @@
 .info-diploma {
   font-size: 0.95rem;
   margin: 0;
+  color: #eef;
 }
 
 .info-institute {
   font-size: 0.85rem;
-  color: #aabbee;
-  margin-top: 0.1rem;
+  color: rgba(170, 187, 238, 0.6);
+  margin-top: 0.2rem;
   font-style: normal;
-  opacity: 0.8;
 }
-
 
 .tech-stack {
   margin-top: 0.4rem;
@@ -94,10 +104,11 @@
 }
 
 .tech-badge {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
   padding: 0.2rem 0.6rem;
-  border-radius: 6px;
+  border-radius: 4px;
   font-size: 0.75rem;
-  color: #cde2ff;
+  color: rgba(205, 226, 255, 0.8);
   font-family: inherit;
+  border: 0.5px solid rgba(255, 255, 255, 0.05);
 }
