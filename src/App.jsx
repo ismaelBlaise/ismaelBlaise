@@ -1,5 +1,6 @@
 import './App.css'
 import Competence from './components/Competence'
+import Contact from './components/Contact'
 import Education from './components/Education'
 import Experience from './components/Experience'
 import Header from './components/Header'
@@ -37,6 +38,11 @@ function App() {
         <Section>
           <Project></Project>
         </Section>
+
+        <Section>
+
+            <Contact></Contact>
+          </Section>
       </div>
     </>
   )
