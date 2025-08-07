@@ -4,6 +4,7 @@ import Experience from './components/Experience'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Section from './components/Section'
+import Service from './components/Service'
 
 function App() {
   
@@ -18,12 +19,13 @@ function App() {
         <Section>
           <Hero></Hero>
         </Section>
-        
+       
         <Section>
           <div className='info-container' >
             <Education></Education>
             <Experience></Experience>
           </div>
+          <Service></Service>
         </Section>
       </div>
     </>
