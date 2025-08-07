@@ -5,6 +5,7 @@
   --dropdown-bg: rgba(30, 30, 30, 0.95);
   --dropdown-border: rgba(255, 255, 255, 0.1);
   
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +15,7 @@
   top: 0;
   z-index: 100;
   border-bottom: 1px solid rgba(0,0,0,0.05);
-  /* display: fixed; */
+
   vertical-align: center;
 }
 
