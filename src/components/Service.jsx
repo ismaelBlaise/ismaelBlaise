@@ -4,27 +4,28 @@ import "../assets/Service.css";
 
 const servicesList = [
   {
-    title: "Full-Stack Web Development",
-    description: "Building responsive and scalable web applications using React, Node.js, and databases.",
-  },
-  {
-    title: "API Development & Integration",
-    description: "Designing and implementing RESTful and GraphQL APIs for seamless backend communication.",
-  },
-  {
-    title: "UI/UX Design Implementation",
-    description: "Transforming designs into pixel-perfect user interfaces with a focus on user experience.",
-  },
-  {
-    title: "DevOps & Deployment",
-    description: "Setting up Docker containers, CI/CD pipelines, and cloud deployments on AWS or other platforms.",
-  },
+  title: "Développement Web Full-Stack",
+  description: "Création d'applications web réactives et évolutives en utilisant React, Spring Boot, Laravel  et des bases de données.",
+},
+{
+  title: "Développement et Intégration d'API",
+  description: "Conception et implémentation d'API RESTful et GraphQL pour une communication fluide avec le backend.",
+},
+{
+  title: "Implémentation UI/UX",
+  description: "Transformation de maquettes en interfaces utilisateur fidèles, avec un accent sur l'expérience utilisateur.",
+},
+{
+  title: "DevOps et Déploiement",
+  description: "Mise en place de conteneurs Docker, de pipelines CI/CD et déploiement sur AWS ou d'autres plateformes cloud.",
+}
+
 ];
 
 export default function Service() {
   return (
     <section className="info" id="services">
-      <h2 className="section-title">Services I Offer</h2>
+      <h2 className="section-title">Services proposés</h2>
 
       <ul className="info-list">
         {servicesList.map(({ title, description }, idx) => (

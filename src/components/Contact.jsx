@@ -7,7 +7,7 @@ import "../assets/Contact.css";
 export default function Contact() {
   return (
     <section id="contact" className="contact-section">
-      <h2 className="section-title">Get In Touch</h2>
+      <h2 className="section-title">Contacter moi</h2>
       
       <div className="contact-methods">
         <div className="contact-card">
@@ -17,7 +17,7 @@ export default function Contact() {
           <div className="contact-info">
             <h3>Email</h3>
             <a href="mailto:your.email@example.com" className="contact-link">
-              your.email@example.com
+              ismablaise@gmail.com
             </a>
           </div>
         </div>
@@ -39,26 +39,26 @@ export default function Contact() {
             <MapPin size={24} />
           </div>
           <div className="contact-info">
-            <h3>Location</h3>
+            <h3>Localisation</h3>
             <p>Antananarivo, Madagascar</p>
           </div>
         </div>
       </div>
 
       <div className="social-links">
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <a href="https://www.linkedin.com/in/blaise-isma%C3%ABl-andrianaivo-491177368/" target="_blank" rel="noopener noreferrer" className="social-icon">
           <Linkedin size={20} />
         </a>
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <a href="https://github.com/ismaelBlaise" target="_blank" rel="noopener noreferrer" className="social-icon">
           <Github size={20} />
         </a>
-        <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <a href="https://www.facebook.com/isma.bl2" target="_blank" rel="noopener noreferrer" className="social-icon">
           <Facebook size={20} />
         </a>
-        <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <a href="https://www.instagram.com/andrianaiv.ismael/" target="_blank" rel="noopener noreferrer" className="social-icon">
           <Instagram size={20} />
         </a>
-        <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <a href="https://x.com/BlaiseIsma" target="_blank" rel="noopener noreferrer" className="social-icon">
           <Twitter size={20} />
         </a>
         <a href="https://wa.me/261345552510" target="_blank" rel="noopener noreferrer" className="social-icon">
@@ -68,7 +68,7 @@ export default function Contact() {
 
       <div className="contact-cta">
         <MessageSquare size={20} className="cta-icon" />
-        <p>Need help or have a project in mind? Let's talk!</p>
+        <p>Besoin d'aide ou d'un projet ? Parlons-en !</p>
       </div>
     </section>
   );
