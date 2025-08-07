@@ -35,7 +35,7 @@ export default function Hero() {
           <p className="hero-description">
             Passionate about creating elegant digital experiences with modern technologies. <br /><br />
             
-            📍 Based in <span  className="tech-item">Antananarivo, Madagascar</span> &nbsp;|&nbsp; 📞 <span className="tech-item">+261 34 55 525 10</span>
+            📍 Based in <span  className="tech-item">Antananarivo, Madagascar</span> &nbsp;| <br/><br/>&nbsp; 📞 Contact me <span className="tech-item">+261 34 55 525 10</span> &nbsp;|
             </p>
 
 
