@@ -1,63 +1,52 @@
 import React, { useState } from 'react';
 import { Code, ExternalLink, ChevronDown, ChevronUp } from "lucide-react";
 import "../assets/Project.css";
-import ProjectImage from '../assets/profil.jpg'; // Default image for projects
+import Folder from '../assets/folder.png'; // Default image for projects
+import Portfolio from '../assets/project-portfolio.png'; // Example image for a specific project
+import FournisseurApi from '../assets/project-fournisseur-api.png'; // Example image for another project
+import Framework from '../assets/project-framework.png'; // Example image for a framework project
+import Pharmacie from '../assets/project-pharmacie.png'; // Example image for a pharmacy management project
 
 const projectData = [
   {
     id: 1,
-    title: 'Developer Portfolio',
-    mainImage: ProjectImage,
-    description: 'A modern, responsive portfolio built with React and Tailwind CSS. Features smooth animations, contact form integration, and project showcases.',
-    technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
-    githubLink: 'https://github.com/yourusername/portfolio',
-    liveDemo: 'https://yourportfolio.com'
+    title: 'Portfolio Développeur',
+    mainImage: Portfolio, // Icône Lucide représentant un dossier
+    description: "Un portfolio moderne et responsive développé avec React  . Il comprend des animations fluides,  , ainsi qu'une section de présentation de projets.",
+    technologies: ['React', 'React Icon', 'Lucide React'],
+    githubLink: 'https://github.com/ismaelBlaise/ismaelBlaise',
+    liveDemo: 'https://andrianaivo-blaise-ismael.netlify.app/'
   },
   {
     id: 2,
-    title: 'RESTful API Service',
-    mainImage: ProjectImage,
-    description: 'A scalable backend API built with Node.js and Express. Features JWT authentication and MongoDB integration.',
-    technologies: ['Node.js', 'Express', 'MongoDB', 'JWT'],
-    githubLink: 'https://github.com/yourusername/api-service',
-    liveDemo: 'https://api.yourservice.com/docs'
-  },
+    title: "API RESTful Fournisseur d'identité",
+    mainImage: FournisseurApi,
+    description: "Une API backend sécurisée et évolutive développée avec Laravel. Elle prend en charge l'authentification via jeton (token), la validation par code PIN pour les opérations sensibles, ainsi que la réinitialisation sécurisée du mot de passe. L’API est connectée à une base de données PostgreSQL et suit les normes RESTful.",
+    technologies: ['Laravel', 'PostgreSQL', 'JWT', 'API REST'],
+    githubLink: 'https://github.com/yourusername/laravel-auth-api',
+    liveDemo: '#'
+    },
+
   {
     id: 3,
-    title: 'Flask Web Application',
-    mainImage: ProjectImage,
-    description: 'A full-stack web application with Python Flask backend. Includes user authentication and responsive templates.',
-    technologies: ['Python', 'Flask', 'SQLAlchemy'],
-    githubLink: 'https://github.com/yourusername/flask-app',
-    liveDemo: 'https://yourapp.com'
+    title: 'Framework de Développement Web Java',
+    mainImage: Framework,
+    description: 'un framework de développement web Java complet, conçu pour simplifier la création d’applications web robustes. Il inclut des fonctionnalités telles que la gestion des sessions, la validation des formulaires, et un moteur de templates pour générer des pages dynamiques.',
+    technologies: ['Java', 'JEE', 'JSP','Servlets'],
+    githubLink: 'https://github.com/ismaelBlaise/framework-java',
+    liveDemo: '#'
   },
+
   {
     id: 4,
-    title: 'E-commerce Platform',
-    mainImage: ProjectImage,
-    description: 'A complete e-commerce solution with product listings, cart functionality, and payment processing.',
-    technologies: ['React', 'Node.js', 'Stripe', 'MongoDB'],
-    githubLink: '#',
+    title: 'Application de Gestion de pharmacie',
+    mainImage: Pharmacie,
+    description: 'un système de gestion de pharmacie complet, développé avec Spring Boot et thymeleaf. Il permet la gestion des stocks de médicaments, la facturation des clients, et le suivi des ventes. L’application utilise une base de données PostgreSQL pour stocker les informations.',
+    technologies: ['Java', 'Spring bot', 'Thymeleaf','PostgreSQL'],
+    githubLink: 'https://github.com/ismaelBlaise/pharmacie',
     liveDemo: '#'
   },
-  {
-    id: 5,
-    title: 'Task Management App',
-    mainImage: ProjectImage,
-    description: 'A productivity application for managing tasks with drag-and-drop functionality and team collaboration.',
-    technologies: ['React', 'Redux', 'Firebase'],
-    githubLink: '#',
-    liveDemo: '#'
-  },
-  {
-    id: 6,
-    title: 'Weather Dashboard',
-    mainImage: ProjectImage,
-    description: 'Real-time weather information with 5-day forecasts and location search.',
-    technologies: ['JavaScript', 'OpenWeather API', 'CSS'],
-    githubLink: '#',
-    liveDemo: '#'
-  }
+ 
 ];
 
 export default function Project() {
@@ -68,7 +57,7 @@ export default function Project() {
 
   return (
     <section className="info" id="projects">
-      <h2 className="section-title">Projects</h2>
+      <h2 className="section-title">Mes projets</h2>
 
       <div className="projects-grid">
         {displayedProjects.map((project) => (

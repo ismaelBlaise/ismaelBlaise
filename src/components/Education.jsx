@@ -4,14 +4,19 @@ import "../assets/Info.css";
 
 const educationList = [
   {
-    date: "2018 - 2021",
-    diploma: "Bachelor's degree in Computer Science",
-    institute: "University of Antananarivo, Madagascar",
+    date: "2023 - Présent",
+    diploma: "Licence en Informatique",
+    institute: "IT University, Andoharanofotsy, Antananarivo",
   },
   {
-    date: "2022",
-    diploma: "Full-Stack Developer Certification",
-    institute: "OpenClassrooms",
+    date: "2022 - 2023",
+    diploma: "Baccalauréat Scientifique Série D",
+    institute: "Lycée Saint Pierre Canisius, Ampahateza, Antananarivo",
+  },
+  {
+    date: "2014 - 2017",
+    diploma: "Baccalauréat Littéraire Série A2",
+    institute: "Cours Accem, Analakely, Antananarivo",
   },
  
 ];

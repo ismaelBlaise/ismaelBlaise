@@ -8,7 +8,7 @@ export default function Hero() {
     "PostgreSQL",   
     "Docker",      
     "AWS"           
-    ];
+  ];
 
   return (
     <div className="hero" id="home">
@@ -24,23 +24,19 @@ export default function Hero() {
           </div>
           <div className="intro-text">
             <h1 className="hero-title">
-            Hi, I'm <span className="hero-highlight">Ismael</span>
+              Bonjour, je suis <span className="hero-highlight">Ismael</span>
             </h1>
-            <p className="hero-subtitle">Full-Stack Developer</p>
-        </div>
+            <p className="hero-subtitle">Développeur Full-Stack</p>
+          </div>
         </div>
 
         <div className="text-content">
-          
           <p className="hero-description">
-            Passionate about creating elegant digital experiences with modern technologies. <br /><br />
-            
-            📍 Based in <span  className="tech-item">Antananarivo, Madagascar</span> &nbsp;| <br/><br/>&nbsp; 📞 Contact me <span className="tech-item">+261 34 55 525 10</span> &nbsp;|
-            </p>
-
+            Passionné par la création d'expériences numériques élégantes avec des technologies modernes. <br /><br />
+            📍 Basé à <span className="tech-item">Antananarivo, Madagascar</span> &nbsp;| <br/><br/>📞 Contactez-moi : <span className="tech-item">+261 34 55 525 10</span> &nbsp;|
+          </p>
 
           <div className="tech-stack">
-            {/* <h3 className="tech-stack-title">Tech Stack</h3> */}
             <div className="tech-list">
               {favoriteTechs.map((tech, index) => (
                 <span key={index} className="tech-item">
