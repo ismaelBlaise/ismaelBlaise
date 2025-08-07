@@ -1,6 +1,6 @@
 import React from 'react';
 import { Calendar } from "lucide-react";
-import "../assets/Education.css";
+import "../assets/Info.css";
 
 const educationList = [
   {
@@ -13,21 +13,21 @@ const educationList = [
     diploma: "Full-Stack Developer Certification",
     institute: "OpenClassrooms",
   },
-  // Ajoute d'autres si nécessaire
+ 
 ];
 
 export default function Education() {
   return (
-    <section className="education" id="education">
+    <section className="info" id="education">
       <h2 className="section-title">Education</h2>
-      <ul className="education-list">
+      <ul className="info-list">
         {educationList.map(({ date, diploma, institute }, idx) => (
-          <li key={idx} className="education-item">
-            <Calendar size={20} className="education-icon" />
-            <div className="education-info">
-              <span className="education-date">{date}</span>
-              <p className="education-diploma">{diploma}</p>
-              <p className="education-institute">{institute}</p>
+          <li key={idx} className="info-item">
+            <Calendar size={20} className="info-icon" />
+            <div className="info-info">
+              <span className="info-date">{date}</span>
+              <p className="info-diploma">{diploma}</p>
+              <p className="info-institute">{institute}</p>
             </div>
           </li>
         ))}

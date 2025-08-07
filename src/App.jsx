@@ -1,5 +1,6 @@
 import './App.css'
 import Education from './components/Education'
+import Experience from './components/Experience'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Section from './components/Section'
@@ -17,11 +18,11 @@ function App() {
         <Section>
           <Hero></Hero>
         </Section>
-        <br />
-        <br />
+        
         <Section>
-          <div className='expertise'>
+          <div className='info-container' >
             <Education></Education>
+            <Experience></Experience>
           </div>
         </Section>
       </div>

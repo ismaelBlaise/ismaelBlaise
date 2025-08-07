@@ -1,11 +1,13 @@
-.education {
+.info {
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 5px;
-  padding: 2rem;
-  width: 50%;
+  padding: 0.8rem 2rem;
+  height: auto;
+  width:50%;
   color: #eee;
+  margin-bottom: 2rem;
   box-sizing: border-box;
   text-align: left;
   box-shadow: none;
@@ -14,7 +16,7 @@
 
 /* Responsive: 100% width on small screens */
 @media (max-width: 768px) {
-  .education {
+  .info {
     width: 100%;
     padding: 1.5rem;
   }
@@ -28,13 +30,13 @@
   text-align: left;
 }
 
-.education-list {
+.info-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.education-item {
+.info-item {
   display: flex;
   align-items: center;
   gap: 0.8rem;
@@ -45,22 +47,22 @@
   transition: background-color 0.2s ease;
 }
 
-.education-item:hover {
+/* .info-item:hover {
   background-color: rgba(255, 255, 255, 0.1);
-}
+} */
 
-.education-icon {
+.info-icon {
   flex-shrink: 0;
   color: #7fbfff;
   margin-top: 0;
 }
 
-.education-info {
+.info-info {
   flex-grow: 1;
   line-height: 1.2;
 }
 
-.education-date {
+.info-date {
   font-weight: 600;
   font-size: 0.85rem;
   color: #99bbff;
@@ -68,15 +70,32 @@
   margin-bottom: 0.2rem;
 }
 
-.education-diploma {
+.info-diploma {
   font-size: 0.95rem;
   margin: 0;
 }
 
-.education-institute {
+.info-institute {
   font-size: 0.85rem;
   color: #aabbee;
   margin-top: 0.1rem;
   font-style: normal;
   opacity: 0.8;
+}
+
+
+.tech-stack {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tech-badge {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  color: #cde2ff;
+  font-family: inherit;
 }
