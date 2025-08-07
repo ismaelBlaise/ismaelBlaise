@@ -1,0 +1,176 @@
+/* Project.css */
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: left;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: #7fbfff;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  /* background: rgba(255, 255, 255, 0.05); */
+  border-radius: 5px;
+  overflow: hidden;
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+  border-left: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-bottom:  0.2px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-card:hover {
+  /* transform: translateY(-5px); */
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); */
+  border-color: rgba(127, 191, 255, 0.3);
+}
+
+.project-image-container {
+  height: 200px;
+  overflow: hidden;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+ 
+
+.project-content {
+  padding: 1.5rem;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  margin: 0 0 0.8rem 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  color: #aabbee;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tech-badge {
+  background-color: rgba(127, 191, 255, 0.15);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #cde2ff;
+  font-family: inherit;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.link-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgba(127, 191, 255, 0.1);
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #cde2ff;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  flex: 1;
+  justify-content: center;
+}
+
+.link-button:hover {
+  background-color: rgba(127, 191, 255, 0.2);
+  /* transform: translateY(-2px); */
+}
+
+@media (max-width: 768px) {
+  .info {
+    padding: 1.5rem;
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-links {
+    flex-direction: column;
+  }
+  
+  .project-image-container {
+    height: 180px;
+  }
+}
+
+
+/* Ajoutez ces styles à votre fichier Project.css */
+
+/* Modifications pour le fichier Project.css */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 projets par ligne */
+  }
+}
+
+/* Le reste du CSS reste inchangé */
+.view-all-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.view-all-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgba(127, 191, 255, 0.1);
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #cde2ff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.view-all-button:hover {
+  background-color: rgba(127, 191, 255, 0.2);
+}

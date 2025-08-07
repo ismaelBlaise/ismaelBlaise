@@ -1,0 +1,55 @@
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: #eee;
+  
+}
+
+.icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /* margin-top: 2rem; */
+}
+
+.icon-item {
+  position: relative;
+  font-size: 3rem;
+  color: #ddd;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.icon-item:hover {
+  transform: scale(1.2);
+  color: #007BFF;
+}
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  /* bottom: -30px; */
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1f2937; /* dark gray */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.icon-item:hover .tooltip {
+  opacity: 1;
+}

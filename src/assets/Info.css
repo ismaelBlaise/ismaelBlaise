@@ -1,0 +1,114 @@
+.info {
+  border-radius: 5px;
+  padding: 0.8rem 2rem;
+  height: auto;
+  width: 50%;
+  color: #eee;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-left: 0.5px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.05);
+  background:transparent;  
+ 
+  transition: all 0.3s ease;
+}
+
+/* .info:hover {
+  border-color: rgba(127, 191, 255, 0.1);
+  background: rgba(255, 255, 255, 0.02);
+} */
+
+/* Responsive: 100% width on small screens */
+@media (max-width: 768px) {
+  .info {
+    width: 100%;
+    padding: 1.2rem;
+    
+  }
+}
+
+.section-title {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #ddd;
+  text-align: left;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  /* background: rgba(127, 191, 255, 0.5); */
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  padding-left: 0.8rem;
+  border-radius: 4px;
+}
+
+.info-icon {
+  flex-shrink: 0;
+  color: rgba(127, 191, 255, 0.7);
+  margin-top: 0.2rem;
+}
+
+.info-info {
+  flex-grow: 1;
+  line-height: 1.4;
+}
+
+.info-date {
+  font-weight: 500;
+  font-size: 0.85rem;
+  color: rgba(153, 187, 255, 0.8);
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.info-diploma {
+  font-size: 0.95rem;
+  margin: 0;
+  color: #eef;
+}
+
+.info-institute {
+  font-size: 0.85rem;
+  color: rgba(170, 187, 238, 0.6);
+  margin-top: 0.2rem;
+  font-style: normal;
+}
+
+.tech-stack {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tech-badge {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: rgba(205, 226, 255, 0.8);
+  font-family: inherit;
+  border: 0.5px solid rgba(255, 255, 255, 0.05);
+}

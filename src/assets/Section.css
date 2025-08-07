@@ -1,0 +1,35 @@
+.section {
+  
+  width: 65%;
+  margin: 0 auto;
+  position: relative;
+  /* background-color: aliceblue; */
+}
+
+
+
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;         
+  }
+}
+
+
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  /* padding: 2rem; */
+
+}
+
+ 
+@media (max-width: 768px) {
+  .info-container { 
+    flex-direction: column;
+  }
+}
