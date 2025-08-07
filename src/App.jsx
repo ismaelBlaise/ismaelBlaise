@@ -4,6 +4,7 @@ import Education from './components/Education'
 import Experience from './components/Experience'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Project from './components/Project'
 import Section from './components/Section'
 import Service from './components/Service'
 
@@ -31,6 +32,10 @@ function App() {
 
         <Section>
           <Competence></Competence>
+        </Section>
+
+        <Section>
+          <Project></Project>
         </Section>
       </div>
     </>
