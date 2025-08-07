@@ -68,7 +68,7 @@ export default function Contact() {
 
       <div className="contact-cta">
         <MessageSquare size={20} className="cta-icon" />
-        <p>Besoin d'aide ou d'un projet ? Parlons-en !</p>
+        <p>Besoin d'aide ou d'un projet ? Parlons-en !</p>
       </div>
     </section>
   );
