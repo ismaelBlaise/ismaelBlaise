@@ -45,7 +45,7 @@ I'm a passionate and creative developer always learning new technologies! 🚀
 
 ## 🗣️ Contact
 
-- 📧 Email: [andrianaivo.ismael.pro@gmail.com](mailto:andrianaivo.ismael.pro@gmail.com)
+- 📧 Email: [andrianaivo.ismael.pro@gmail.com](mailto:ismablaise@gmail.com)
 - 🌐 Portfolio: [https://andrianaivo-blaise-ismael.netlify.app/](https://andrianaivo-blaise-ismael.netlify.app/)
 - 📜 Resume: [Download Resume](https://your-portfolio.com/resume)
 - 💬 WhatsApp: [Chat with me](https://wa.me/yourphonenumber)
