@@ -6,7 +6,7 @@
   
   
   display: flex;
-
+  flex-direction: column;
   margin-top: 4rem;
   margin-bottom: 4rem;
   padding: 0 2rem;
@@ -22,17 +22,22 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .profile-section {
   display: flex;
   margin-bottom: 2rem;
+  flex-direction: column; 
+  align-items: center;
+  /* margin-bottom: 2rem; */
 }
 
 .profile-image-container {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 150px;  /* plus grand sur mobile */
+  height: 150px;
+
   margin-right: 1.5rem;
 }
 
@@ -55,6 +60,10 @@
   border: 2px solid transparent;
   border-top-color: var(--secondary-color);
   animation: spin 8s linear infinite;
+}
+
+.intro-text {
+  text-align: center; /* centré sur mobile */
 }
 
 .text-content {
@@ -81,8 +90,9 @@
   color: var(--secondary-color);
   line-height: 1.6;
   margin: 0 0 2rem 0;
-  max-width: 600px;
+  /* max-width: 600px; */
   opacity: 0.9;
+  max-width: 100%;
 }
 
 .hero-highlight {
@@ -192,4 +202,18 @@
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .profile-section {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+  .intro-text, .text-content {
+    text-align: left;
+  }
 }
