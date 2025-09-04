@@ -1,6 +1,6 @@
 # Hi, I'm Blaise Ismael ANDRIANAIVO 👋
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/blaise-ismael-andrianaivo-84347b354)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat&logo=linkedin&logoColor=white)](https://mg.linkedin.com/in/blaise-isma%C3%ABl-andrianaivo-491177368)
 [![Facebook](https://img.shields.io/badge/Facebook-%230077B5.svg?&style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/isma.bl2)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/andrianaiv.ismael)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%25E91E63.svg?&style=flat&logo=whatsapp&logoColor=white)](https://wa.me/+261345552510)
@@ -45,10 +45,9 @@ I'm a passionate and creative developer always learning new technologies! 🚀
 
 ## 🗣️ Contact
 
-- 📧 Email: [andrianaivo.ismael.pro@gmail.com](mailto:ismablaise@gmail.com)
+- 📧 Email: [ismablaise@gmail.com](mailto:ismablaise@gmail.com)
 - 🌐 Portfolio: [https://andrianaivo-blaise-ismael.netlify.app/](https://andrianaivo-blaise-ismael.netlify.app/)
-- 📜 Resume: [Download Resume](https://your-portfolio.com/resume)
-- 💬 WhatsApp: [Chat with me](https://wa.me/yourphonenumber)
+- 💬 WhatsApp: [Chat with me](https://wa.me/0345552510)
 
 ---
 
