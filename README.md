@@ -3,13 +3,14 @@
 Full Stack Developer passionate about building modern web applications.
 
 ## 👨‍💻 About Me
-- 💻 Full Stack Developer (React, Node.js, TypeScript)
+- 💻 Full Stack Developer (React, Node.js, Java,TypeScript)
 - 🧠 Interested in AI and backend architecture
 - 🚀 I enjoy building clean and scalable applications
 - 🌱 Currently improving my skills in modern web technologies
 
 ## 🛠️ Tech Stack
-- React  
+- React
+- React Native
 - Node.js  
 - NestJS  
 - TypeScript  
