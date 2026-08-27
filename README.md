@@ -1,4 +1,4 @@
-# Hi, I'm Blaise Ismael ANDRIANAIVO 👋
+# Hi, I'm  Ismael ANDRIANAIVO 👋
 
 Full Stack Developer passionate about building modern, scalable and efficient digital products.
 
